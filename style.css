@@ -1,6 +1,6 @@
 body {
     background-color: rgb(237, 237, 237);
-    background-image: url("images/backgrounds/minimalcity.jpeg");
+    background-image: url("images/backgrounds/earth.jpeg");
     background-repeat: repeat-x;
     background-attachment: fixed;
     background-size: cover;
@@ -29,6 +29,20 @@ body {
 .body-csci {
     background-color: rgb(237, 237, 237);
     background-image: url("images/backgrounds/dark.jpeg");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.body-achieve {
+    background-color: rgb(237, 237, 237);
+    background-image: url("images/backgrounds/minimalcity.jpeg");
     background-repeat: repeat-x;
     background-attachment: fixed;
     background-size: cover;
@@ -73,11 +87,21 @@ div {
 }
 .div-TOC {
     background-color: rgb(205, 205, 205, 0.90);
-    width: 35%;
+    width: 19%;
     border: 3px solid white;
     border-radius: 7px;
-    padding: 3px;
+    padding: 5px;
     margin: auto;
+    margin-top: 0.3%;
+}
+.div-date {
+    background-color: rgb(205, 205, 205, 0.90);
+    width: 20%;
+    border: 3px solid white;
+    border-radius: 7px;
+    padding: 5px;
+    margin: auto;
+    text-align: center;
 }
 .div-home {
     background-color: rgb(205, 205, 205, 0.90);
